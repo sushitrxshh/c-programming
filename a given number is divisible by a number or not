@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+        float a,b;
+        printf("Enter a and b");
+        scanf("%f%f", &a,&b);
+
+        if(a%b==0)
+        {
+                printf("%f is divisible by %f", &a,&b);
+        }
+        else
+        {
+                printf("%f is not divisible by %f", &a,&b);
+        }
+        return 0;
+}
